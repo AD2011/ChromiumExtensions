@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Hash Hackers Proxy Opener",
+  "version": "1.0",
+  "description": "Open current page through Hash Hackers proxy",
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

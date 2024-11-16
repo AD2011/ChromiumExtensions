@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "IMDb to VidSrc",
+  "version": "1.0",
+  "description": "Add a button to redirect to vidsrc.net on IMDb pages",
+  "permissions": [
+    "activeTab"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.imdb.com/title/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "TeraBox Incognito Opener",
+  "version": "1.0",
+  "description": "Open links in TeraBox proxy in incognito mode",
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
